@@ -1,0 +1,122 @@
+﻿@model FPTJOB.Models.Profile
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section style="background-color: #eee;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a asp-action="Index" class="btn btn-outline-danger ms-1"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page" style="font-size:20px"><strong>Update User Profile</strong></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <img src="~/dist/img/women.jpg" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                        <h5 class="my-3">@Html.DisplayFor(model => model.FullName)</h5>
+                        <p class="text-muted mb-1">@Html.DisplayFor(model => model.Skill)</p>
+                        <p class="text-muted mb-4">@Html.DisplayFor(model => model.Address)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card mb-4">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <strong><p class="mb-0">@Html.DisplayNameFor(model => model.UserID)</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="UserID" class="form-control" />
+                                    <span asp-validation-for="UserID" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    @* <strong><p class="mb-0">@Html.DisplayNameFor(model => model.FullName)</p></strong> *@
+                                    <strong><p class="mb-0">Full Name</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="FullName" class="form-control" />
+                                    <span asp-validation-for="FullName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <strong><p class="mb-0">@Html.DisplayNameFor(model => model.Address)</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="Address" class="form-control" />
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <strong><p class="mb-0">@Html.DisplayNameFor(model => model.City)</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="City" class="form-control" />
+                                    <span asp-validation-for="City" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <strong><p class="mb-0">@Html.DisplayNameFor(model => model.Skill)</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="Skill" class="form-control" />
+                                    <span asp-validation-for="Skill" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <strong><p class="mb-0">@Html.DisplayNameFor(model => model.Education)</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="Education" class="form-control" />
+                                    <span asp-validation-for="Education" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <strong><p class="mb-0">@Html.DisplayNameFor(model => model.MyFile)</p></strong>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input asp-for="MyFile" class="form-control" />
+                                    <span asp-validation-for="MyFile" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-12" style="text-align: right">
+                                    <div class="form-group">
+                                        <input type="submit" value="Save" class="btn btn-primary" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

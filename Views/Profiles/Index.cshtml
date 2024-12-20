@@ -1,0 +1,61 @@
+﻿@model IEnumerable<FPTJOB.Models.Profile>
+
+    @{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Data Table Of Jobs</h3>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            <p>
+                <a asp-action="Create" class="btn btn-outline-info">Create New</a>
+            </p>
+            <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.First().UserID)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().FullName)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Address)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().City)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Skill)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Education)</th>
+                        <th>Image</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UserID</td>
+                        <td>@item.FullName</td>
+                        <td>@item.Address</td>
+                        <td>@item.City</td>
+                        <td>@item.Skill</td>
+                        <td>@item.Education</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.MyFile))
+                            {
+                            <img src="@Url.Content("~/uploads/" + item.MyFile)" alt="Image" style="max-width:100px; height:auto;" />
+                            }
+                            else
+                            {
+                            <span>No Image</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>

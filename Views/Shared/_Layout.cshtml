@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FPTJobMatch</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f1f5f9;
+        }
+
+        /* Sidebar Customization */
+        .sidebar {
+            width: 260px;
+            background-color: #1e293b;
+            color: white;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .sidebar .brand-logo {
+                font-size: 1.8rem;
+                text-align: center;
+                padding: 20px 0;
+                background-color: #0f172a;
+                font-weight: 700;
+                color: #fbbf24;
+            }
+
+            .sidebar a {
+                color: white;
+                padding: 12px 20px;
+                display: block;
+                text-decoration: none;
+                transition: background 0.3s, color 0.3s;
+                border-radius: 0 25px 25px 0;
+            }
+
+                .sidebar a:hover, .sidebar a.active {
+                    background-color: #fbbf24;
+                    color: #1e293b;
+                }
+
+            .sidebar hr {
+                border-color: #334155;
+            }
+
+            .sidebar h6 {
+                padding: 10px 20px;
+                text-transform: uppercase;
+                font-size: 0.85rem;
+                font-weight: bold;
+                color: #9ca3af;
+                margin-top: 15px;
+            }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .navbar-brand {
+            color: #0f172a !important;
+            font-weight: bold;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            background-color: #0f172a;
+        }
+
+        .navbar-nav .nav-link {
+            color: #4b5563;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #0f172a;
+            }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="brand-logo">
+            FPTJobMatch
+        </div>
+        <a asp-controller="Home" asp-action="Index" class="active">
+            <i class="fas fa-home me-2"></i> Home
+        </a>
+        <hr>
+        <a asp-controller="Categories" asp-action="Index">
+            <i class="fas fa-list me-2"></i> Categories
+        </a>
+        <a asp-controller="Jobs" asp-action="Index">
+            <i class="fas fa-briefcase me-2"></i> Jobs
+        </a>
+        <a asp-controller="Profiles" asp-action="Index">
+            <i class="fas fa-user me-2"></i> Profiles
+        </a>
+        @*<a asp-controller="Jobs" asp-action="ListJob">
+            <i class="fas fa-tasks me-2"></i> Job Listings
+        </a>*@
+        <hr>
+        <h6 class="text-uppercase">Admin</h6>
+        @*<a asp-controller="Admin" asp-action="CreateRole">
+            <i class="fas fa-user-plus me-2"></i> Create Role
+        </a>*@
+        <a asp-controller="Account" asp-action="SetRole">
+            <i class="fas fa-user-cog me-2"></i> Set Role
+        </a>
+        <a asp-controller="Account" asp-action="UserList">
+            <i class="fas fa-users me-2"></i> User List
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">FPTJobMatch</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            @Html.Partial("_LoginPartial")
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content Section -->
+        <div class="container mt-4">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

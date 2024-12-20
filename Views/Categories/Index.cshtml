@@ -1,0 +1,59 @@
+﻿@model IEnumerable<FPTJOB.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* <h1>Index</h1> *@
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Data Table Of Categories</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        <p>
+            <a asp-action="Create" class="btn btn-outline-info">Create New</a>
+        </p>
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td style="width:150px">
+                        @* <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> *@
+                        <a asp-action="Approved" asp-route-id="@item.Id" class="btn btn-labeled btn-info" title="Approve" onclick="return confirm('are you sure?')">
+                            <span class="btn-label"><i class="fa fa-check-square-o" aria-hidden="true"></i></span>
+                        </a> |
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-labeled btn-success" title="Edit">
+                            <span class="btn-label"><i class="fa fa-edit"></i></span>
+                        </a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-labeled btn-warning" title="Details">
+                            <span class="btn-label"><i class="fa fa-eye" aria-hidden="true"></i></span>
+                        </a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-labeled btn-danger" title="Delete">
+                            <span class="btn-label"><i class="fa fa-trash"></i></span>
+                        </a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+    </div>
+</div>

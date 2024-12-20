@@ -1,0 +1,529 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1670\\New folder\\FPTJobMatch1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\account\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\account\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\profiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\profiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\profile_job\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\profile_job\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\jobs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\jobs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\profiles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\profiles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\profiles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\profiles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\profiles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\profiles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\controllers\\profile_jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:controllers\\profile_jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\jobs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\jobs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\admin\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\admin\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\account\\setrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\account\\setrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\jobs\\listjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\jobs\\listjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\jobs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\jobs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\jobs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\jobs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\fptjob.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:fptjob.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\models\\dbmycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:models\\dbmycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\models\\profile_job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:models\\profile_job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|d:\\1670\\new folder\\fptjobmatch1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59583BEA-F1DB-4CEF-A698-DAE5083D6884}|FPTJOB.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Account\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\UserList.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Account\\UserList.cshtml",
+              "RelativeToolTip": "Views\\Account\\UserList.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-16T07:50:32.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswDEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profile_JobController.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\Profile_JobController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Profile_JobController.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\Profile_JobController.cs",
+              "RelativeToolTip": "Controllers\\Profile_JobController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADwvzoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\Edit.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\Details.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Details.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Jobs\\Index.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Jobs\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profile_Job\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile_Job\\Index.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profile_Job\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile_Job\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\Index.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfilesController.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\ProfilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfilesController.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\ProfilesController.cs",
+              "RelativeToolTip": "Controllers\\ProfilesController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAIAwwFMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\Delete.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Profiles\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\Delete.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABwAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Admin\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateRole.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Admin\\CreateRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Jobs\\Create.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Create.cshtml",
+              "RelativeToolTip": "Views\\Jobs\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwHcAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SetRole.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Account\\SetRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SetRole.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Account\\SetRole.cshtml",
+              "RelativeToolTip": "Views\\Account\\SetRole.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobsController.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "Controllers\\JobsController.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAIwEIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Jobs\\Details.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Details.cshtml",
+              "RelativeToolTip": "Views\\Jobs\\Details.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwFIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ListJob.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\ListJob.cshtml",
+              "RelativeDocumentMoniker": "Views\\Jobs\\ListJob.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\ListJob.cshtml",
+              "RelativeToolTip": "Views\\Jobs\\ListJob.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Jobs\\Delete.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Jobs\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Jobs\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FPTJOB.csproj",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\FPTJOB.csproj",
+              "RelativeDocumentMoniker": "FPTJOB.csproj",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\FPTJOB.csproj",
+              "RelativeToolTip": "FPTJOB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T07:50:32.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:50:32.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Job.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "Models\\Job.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Job.cs",
+              "RelativeToolTip": "Models\\Job.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DBMyContext.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\DBMyContext.cs",
+              "RelativeDocumentMoniker": "Models\\DBMyContext.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\DBMyContext.cs",
+              "RelativeToolTip": "Models\\DBMyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Profile_Job.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Profile_Job.cs",
+              "RelativeDocumentMoniker": "Models\\Profile_Job.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Profile_Job.cs",
+              "RelativeToolTip": "Models\\Profile_Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\1670\\New folder\\FPTJobMatch1\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:32.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

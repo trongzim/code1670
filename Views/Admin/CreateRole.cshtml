@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-12">
+	<!-- general form elements -->
+	<div class="card card-info">
+		<div class="card-header">
+			<h3 class="card-title">Create Role</h3>
+		</div>
+		<!-- /.card-header -->
+		<!-- form start -->
+		<form method="post" action="/Admin/CreateRole">
+			<div class="card-body">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label for="roleName" class="control-label">Role Name</label>
+					<input type="text" id="roleName" name="roleName" required class="form-control" />
+					<span name="roleName" class="text-danger"></span>
+				</div>
+			</div>
+			<!-- /.card-body -->
+
+			<div class="card-footer">
+				<button type="submit" class="btn btn-primary">Submit</button>
+				<a class="btn btn-danger" asp-action="Index" asp-controller="Home">Back to List</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+@* <h2>Create Role</h2>
+<form method="post" action="/Admin/CreateRole">
+    <div>
+        <label for="roleName">Role's Name:</label>
+        <input type="text" id="roleName" name="roleName" required />
+    </div>
+    <button type="submit">Submit</button>
+</form> *@

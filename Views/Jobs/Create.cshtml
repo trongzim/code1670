@@ -1,0 +1,97 @@
+﻿@model FPTJOB.Models.Job
+
+@{
+    ViewData["Title"] = "Create Job";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card card-info shadow-sm">
+    <div class="card-header bg-primary text-white">
+        <h3 class="card-title">Create Job</h3>
+    </div>
+    <form asp-action="Create" method="post" novalidate>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="card-body">
+            <div class="row">
+                <!-- Cột Trái -->
+                <div class="col-md-6">
+                    <!-- Job Name -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Name" class="control-label">Job Name</label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter job name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <!-- Industry -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Industry" class="control-label">Industry</label>
+                        <input asp-for="Industry" class="form-control" placeholder="Enter industry" />
+                        <span asp-validation-for="Industry" class="text-danger"></span>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Location" class="control-label">Location</label>
+                        <input asp-for="Location" class="form-control" placeholder="Enter location" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+
+                    <!-- Salary -->
+                    <div class="form-group">
+                        <label asp-for="Salary" class="control-label">Salary</label>
+                        <input asp-for="Salary" class="form-control" placeholder="Enter salary between 0.01 and 100,000" />
+                        <span asp-validation-for="Salary" class="text-danger"></span>
+                    </div>
+
+
+                    <!-- Deadline -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Deadline" class="control-label">Deadline</label>
+                        <input asp-for="Deadline" class="form-control" type="date" />
+                        <span asp-validation-for="Deadline" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Cột Phải -->
+                <div class="col-md-6">
+                    <!-- Description -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Description" class="control-label">Description</label>
+                        <textarea asp-for="Description" class="form-control" rows="5" placeholder="Enter description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <!-- Requirement -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Requirement" class="control-label">Requirement</label>
+                        <textarea asp-for="Requirement" class="form-control" rows="5" placeholder="Enter requirement"></textarea>
+                        <span asp-validation-for="Requirement" class="text-danger"></span>
+                    </div>
+
+                    <!-- Category -->
+                    <div class="form-group mb-3">
+                        <label asp-for="CategoryId" class="control-label">Category</label>
+                        <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.CategoryId">
+                            <option value="">Select a category</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit và Back -->
+            <div class="form-group text-end">
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-check-circle"></i> Submit
+                </button>
+                <a asp-action="Index" class="btn btn-danger">
+                    <i class="fas fa-arrow-left"></i> Back to List
+                </a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

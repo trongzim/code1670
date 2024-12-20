@@ -1,0 +1,81 @@
+﻿@model FPTJOB.Models.Job
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h1 class="card-title" style="font-size: 25px"><strong>This is an item that you want to delete</strong></h1>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Name):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Name)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Industry):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Industry)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Location):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Location)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Description):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Description)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Requirement):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Requirement)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Deadline):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Deadline)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5><strong>@Html.DisplayNameFor(model => model.Category):</strong></h5>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Html.DisplayFor(model => model.Category.Name)</p>
+                        </div>
+                    </div>
+                </div>
+                <form asp-action="Delete" class="card-footer">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure?')" /> |
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

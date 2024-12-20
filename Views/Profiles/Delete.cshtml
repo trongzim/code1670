@@ -1,0 +1,107 @@
+﻿@model FPTJOB.Models.Profile
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section style="background-color: #eee;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                    <ol class="breadcrumb mb-0">
+                        @*                         <li class="breadcrumb-item"><a href="#">Home</a></li> *@
+                        <li class="breadcrumb-item"><a asp-action="Index" class="btn btn-outline-danger ms-1"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page" style="font-size:20px"><strong>This is an item that you want to delete</strong></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <img src="~/dist/img/women.jpg" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                        <h5 class="my-3">@Html.DisplayFor(model => model.FullName)</h5>
+                        <p class="text-muted mb-1">@Html.DisplayFor(model => model.Skill)</p>
+                        <p class="text-muted mb-4">@Html.DisplayFor(model => model.Address)</p>
+                        <form asp-action="Delete">
+                            <input type="hidden" asp-for="Id" />
+                            <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure?')" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.UserID)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.UserID)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.FullName)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.FullName)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.Address)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.Address)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.City)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.City)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.Skill)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.Skill)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.Education)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.Education)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong><p class="mb-0">@Html.DisplayNameFor(model => model.MyFile)</p></strong>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Html.DisplayFor(model => model.MyFile)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

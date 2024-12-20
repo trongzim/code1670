@@ -1,0 +1,64 @@
+﻿@model IEnumerable<FPTJOB.Models.Job>
+
+    @{
+    ViewData["Title"] = "Jobs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <div class="card">
+        <div class="card-header bg-info text-white">
+            <h3 class="card-title">Job List</h3>
+        </div>
+        <div class="card-body">
+            <!-- Hiển thị tổng số công việc -->
+            <div class="alert alert-primary" role="alert">
+                Total Jobs Available: <strong>@ViewBag.TotalJobs</strong>
+            </div>
+            <div>
+                <a asp-action="Index" asp-route-sortOrder="salary_asc" class="btn btn-outline-success @(ViewBag.SortOrder == "salary_asc" ? "active" : "")">
+                    Sort by Salary: Low to High
+                </a>
+                <a asp-action="Index" asp-route-sortOrder="salary_desc" class="btn btn-outline-danger @(ViewBag.SortOrder == "salary_desc" ? "active" : "")">
+                    Sort by Salary: High to Low
+                </a>
+            </div>
+        </div>
+
+            <!-- Nút Create Job -->
+            <p>
+                <a asp-action="Create" class="btn btn-success">Create New Job</a>
+            </p>
+
+            <!-- Bảng danh sách công việc -->
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Job Name</th>
+                        <th>Industry</th>
+                        <th>Location</th>
+                        <th>Deadline</th>
+                        <th>Salary</th>
+                        <th>Category</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var job in Model)
+                {
+                    <tr>
+                        <td>@job.Name</td>
+                        <td>@job.Industry</td>
+                        <td>@job.Location</td>
+                        <td>@job.Deadline.ToShortDateString()</td>
+                        <td>@job.Salary</td>
+                        <td>@(job.Category?.Name ?? "N/A")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@job.Id" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@job.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>

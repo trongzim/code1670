@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Admin",
+    "\\Views\\Home",
+    "\\Views\\Jobs",
+    "\\Views\\Profiles",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\.gitignore",
+  "PreviewInSolutionExplorer": false
+}
